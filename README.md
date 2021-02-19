@@ -29,7 +29,7 @@ tqdm
 
 ## Download the code
 
-Due to the privacy issue, we only public the ssjy dataset. You can download the dataset [here]() and unzip to "data" fold.
+Due to the privacy issue, we only public the ssjy dataset. You can download the dataset [here]() and unzip to "data" folder.
 
 ## Data preprocessing
 
