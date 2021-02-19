@@ -108,5 +108,5 @@ def feature_2_dict():
 if __name__ == "__main__":
     # build_userdict()
     # build_feature_dict()
-    feature_2_dict()
+    # feature_2_dict()
     split("../data/train_data.csv")
