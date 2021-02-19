@@ -2,6 +2,8 @@
 > Author Linhao Luo 
 > luolinhao1998@gmail.com
 
+Official code implementation for paper [A Motif-Based Graph Neural Network to Reciprocal Recommendation for Online Dating](https://link.springer.com/chapter/10.1007/978-3-030-63833-7_9)
+
 ## Environments
 Ubuntu 20.04
 
@@ -24,6 +26,10 @@ numpy
 gensim
 tqdm
 ```
+
+## Download the code
+
+Due to the privacy issue, we only public the ssjy dataset. You can download the dataset [here]() and unzip to "data" fold.
 
 ## Data preprocessing
 
@@ -55,4 +61,17 @@ cat src_sjjy/pipline_config.py
 
 ```
 python3 train_pipline.py
+```
+
+## Citation
+
+```
+@inproceedings{luo2020motif,
+  title={A Motif-Based Graph Neural Network to Reciprocal Recommendation for Online Dating},
+  author={Luo, Linhao and Liu, Kai and Peng, Dan and Ying, Yaolin and Zhang, Xiaofeng},
+  booktitle={International Conference on Neural Information Processing},
+  pages={102--114},
+  year={2020},
+  organization={Springer}
+}
 ```
